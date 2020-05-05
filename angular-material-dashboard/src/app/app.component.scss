@@ -1,0 +1,17 @@
+/* content will come on one page only*/
+:host{
+    display: flex;
+    flex-direction: column;
+    height : 100%;
+}
+
+mat-drawer-container{
+    height : 100%;
+    mat-drawer{
+        width : 350px;  
+    }
+    mat-drawer-content{
+        padding: 20px;
+    }
+}
+
