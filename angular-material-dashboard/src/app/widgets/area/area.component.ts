@@ -22,15 +22,15 @@ export class AreaComponent implements OnInit {
           type: 'area'
       },
       title: {
-          text: 'Random Data'
+          text: 'Views are up! Your channel got 27,981 views in the last 28 days.'
       },
       subtitle: {
-          text: 'demo'
+          text: 'That’s more than the 17,200–21,100 your channel usually gets.'
       },
      
       tooltip: {
           split: true,
-          valueSuffix: ' millions'
+          valueSuffix: ' thousand'
       },
       credits : {
         enabled : false

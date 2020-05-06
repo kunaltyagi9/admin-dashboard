@@ -5,10 +5,18 @@
     height : 100%;
 }
 
+app-header{
+    position: fixed;
+    height: auto;
+    width: 100%;
+    z-index: 100
+}
+
 mat-drawer-container{
     height : 100%;
     mat-drawer{
-        width : 350px;  
+        width : 350px;
+        margin-top: 60px; 
     }
     mat-drawer-content{
         padding: 20px;

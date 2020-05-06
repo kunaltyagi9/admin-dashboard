@@ -1,31 +1,26 @@
 <mat-nav-list>
     <div class = "profile-card">
+        <img src = "../../assets/images/logo.png" alt = "Channel Logo">
         <div class = "header">
-            <h2>Code for Interview</h2>
-            <h4>codeforinterview01@gmail.com</h4>
+            <h4><strong>Your Channel</strong></h4>
+            <h4>Code for Interview</h4>
         </div>
-        <img src = "https://material.angular.io/assets/img/examples/shiba2.jpg" alt = "">
     </div>
     
     <mat-divider></mat-divider>
 
     <h2 matSubheader>Pages</h2>
 
-    <a mat-list-item routerLinkActive = "list-item-active" routerLink = "/">Dashboard</a>
-    <a mat-list-item routerLinkActive = "list-item-active" routerLink = "/posts">Posts</a>
-    <a mat-list-item routerLinkActive = "list-item-active" routerLink = "/article">Articles</a>
+    <a mat-list-item routerLinkActive = "list-item-active" routerLink = "/"><mat-icon>dashboard</mat-icon>Dashboard</a>
+    <a mat-list-item routerLinkActive = "list-item-active" routerLink = "/posts"><mat-icon>video_library</mat-icon>Videos</a>
+    <a mat-list-item routerLinkActive = "list-item-active" routerLink = "/posts"><mat-icon>playlist_play</mat-icon>Playlist</a>
+    <a mat-list-item routerLinkActive = "list-item-active" routerLink = "/article"><mat-icon>assessment</mat-icon>Analytics</a>
+    <a mat-list-item routerLinkActive = "list-item-active" routerLink = "/article"><mat-icon>comment</mat-icon>Comments</a>
 
     <mat-divider></mat-divider>
 
     <h2 matSubheader>Tools</h2>
 
-    <a mat-list-item routerLinkActive = "list-item-active" routerLink = "/">
-        <mat-icon>import_contacts</mat-icon>
-        Contacts
-    </a>
-
-    <a mat-list-item routerLinkActive = "list-item-active" routerLink = "/">
-        <mat-icon>contact_phone</mat-icon>
-        Leads
-    </a>
+    <a mat-list-item routerLinkActive = "list-item-active" routerLink = "/"><mat-icon>settings</mat-icon>Settings</a>
+    <a mat-list-item routerLinkActive = "list-item-active" routerLink = "/"><mat-icon>feedback</mat-icon>Send Feedback</a>
 </mat-nav-list>
