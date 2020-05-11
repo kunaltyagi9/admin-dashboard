@@ -1,9 +1,3 @@
-<div>
-    <app-area [data]="bigChart"></app-area>
-</div>
-<br>
-<mat-divider></mat-divider>
-<br>
 <div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px" class="stats-cards">
     <mat-card fxFlex="25">
         <app-card label="Views" total="30k" percentage="8k" [data]="cards"></app-card>
@@ -21,6 +15,12 @@
 <br>
 <mat-divider></mat-divider>
 <br>
+<div>
+    <app-area [data]="bigChart"></app-area>
+</div>
+<br>
+<mat-divider></mat-divider>
+<br>
 <div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px">
     <div fxFlex="60">
         <div class="mat-elevation-z8">
@@ -34,19 +34,19 @@
 
                 <!-- Name Column -->
                 <ng-container matColumnDef="name">
-                    <th mat-header-cell *matHeaderCellDef> Name </th>
+                    <th mat-header-cell *matHeaderCellDef> Video </th>
                     <td mat-cell *matCellDef="let element"> {{element.name}} </td>
                 </ng-container>
 
                 <!-- Weight Column -->
                 <ng-container matColumnDef="weight">
-                    <th mat-header-cell *matHeaderCellDef> Weight </th>
+                    <th mat-header-cell *matHeaderCellDef> Average view duration </th>
                     <td mat-cell *matCellDef="let element"> {{element.weight}} </td>
                 </ng-container>
 
                 <!-- Symbol Column -->
                 <ng-container matColumnDef="symbol">
-                    <th mat-header-cell *matHeaderCellDef> Symbol </th>
+                    <th mat-header-cell *matHeaderCellDef> views </th>
                     <td mat-cell *matCellDef="let element"> {{element.symbol}} </td>
                 </ng-container>
 

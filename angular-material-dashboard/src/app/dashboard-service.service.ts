@@ -36,34 +36,25 @@ export class DashboardServiceService {
       name: 'Brands',
       colorByPoint: true,
       data: [{
-          name: 'Chrome',
+          name: 'Youtube<br/> Search<br>',
           y: 61.41,
           sliced: true,
           selected: true
       }, {
-          name: 'Internet Explorer',
+          name: 'Other<br>youtube<br>features<br>',
           y: 11.84
       }, {
-          name: 'Firefox',
+          name: 'Browse<br>features<br>',
           y: 10.85
       }, {
-          name: 'Edge',
-          y: 4.67
+          name: 'Playlist<br>page<br>',
+          y: 7.28
       }, {
-          name: 'Safari',
-          y: 4.18
+          name: 'External',
+          y: 5.68
       }, {
-          name: 'Sogou Explorer',
-          y: 1.64
-      }, {
-          name: 'Opera',
-          y: 1.6
-      }, {
-          name: 'QQ',
-          y: 1.2
-      }, {
-          name: 'Other',
-          y: 2.61
+          name: 'Others',
+          y: 2.84
       }]
   }]
   }
